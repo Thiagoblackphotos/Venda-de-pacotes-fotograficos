@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+header {
+    background-color: #6b6b6b;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom:  3px solid #070707;
+}
+.container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+.products-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+.card {
+   flex: 0 0 auto;
+   width: 31%;
+   margin: 1% ;
+   padding: 15px;
+   box-sizing: border-box;
+}
+
+.product-img {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+#img-1 {
+    background-image: url(../img/casamento.jpg)
+}
+#img-2 {
+    background-image: url(../img/empresarial.jpg)
+}
+#img-3 {
+    background-image: url(../img/eventos.jpg)
+}
+#img-4 {
+    background-image: url(../img/externos.jpg)
+}
+#img-5 {
+    background-image: url(../img/formatura.jpg)
+}
+#img-6 {
+    background-image: url(../img/gestante.jpg)
+}
+#img-7 {
+    background-image: url(../img/pré-casamento.jpg)
+}
+h3{
+    margin-bottom: 10px;
+    color: #6b6b6b;
+    font-size: 24px;
+    border-left: 5px solid #070707;
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 10px;
+
+}
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #3f3a3a;
+    color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    transition: .5s;
+}
+
+.btn:hover{background-color: #070707;
+
+}
+
+footer {
+    background-color: #6b6b6b;
+    color: #fff;
+    border-top: 3px solid #070707;
+    text-align: center;
+    padding: 80px;
+
+}
